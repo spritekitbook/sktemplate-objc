@@ -16,7 +16,7 @@
 // The size of the running view
 @property CGSize viewSize;
 
-// Calculate "Detla"
+// Calculate "Delta"
 @property NSTimeInterval lastUpdateTime;
 
 // Character
