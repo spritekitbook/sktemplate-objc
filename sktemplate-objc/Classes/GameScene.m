@@ -54,7 +54,7 @@
     label.position = ScreenCenter();
     [self addChild:label];
     
-    // Run a sacle sequence action on the label
+    // Run a scale sequence action on the label
     [label runAction:[SKAction scaleTo:1.1 duration:0.25] completion:^{
         [label runAction:[SKAction scaleTo:1.0 duration:0.25]];
     }];
