@@ -13,6 +13,7 @@
 
 
 -(void)viewDidLayoutSubviews {
+    
     [super viewDidLayoutSubviews];
     
     SKView *skView = (SKView *)self.view;
@@ -43,10 +44,11 @@
         
         
         if (kDebug) {
-            NSLog(@"Screen width: %.2f x Screen height: %.2f", viewSize.width, viewSize.height);
+            NSLog(@"Screen width: %.2f, Screen height: %.2f", viewSize.width, viewSize.height);
         }
         
     }
+    
 }
 
 - (BOOL)shouldAutorotate {

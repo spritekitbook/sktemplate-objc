@@ -53,6 +53,7 @@
 
 #pragma mark - Actions
 -(void)flyToPosition:(CGPoint)position {
+    
     _targetLocation = position;
     
     if (_targetLocation.x < self.position.x) {
@@ -60,6 +61,7 @@
     } else {
         [self setXScale:1.0];
     }
+    
 }
 
 #pragma mark - Update
@@ -69,6 +71,7 @@
     CGFloat newY = Smooth(self.position.y, _targetLocation.y, 0.05);
     
     self.position = CGPointMake(newX, newY);
+    
 }
 
 @end

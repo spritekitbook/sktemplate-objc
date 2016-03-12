@@ -13,13 +13,8 @@
 #pragma mark - Class Private Interface
 @interface GameScene()
 
-// The size of the running view
 @property CGSize viewSize;
-
-// Calculate "Delta"
 @property NSTimeInterval lastUpdateTime;
-
-// Character
 @property Floppy *player;
 
 @end
@@ -29,6 +24,7 @@
 
 #pragma mark - Init
 -(instancetype)initWithSize:(CGSize)size {
+    
     if ((self = [super initWithSize:size])) {
         
         [self setupScene];
@@ -71,6 +67,7 @@
     CGPoint touchLocation = [touch locationInNode:self.scene];
     
     [_player flyToPosition:touchLocation];
+    
 }
 
 -(void)update:(NSTimeInterval)currentTime {

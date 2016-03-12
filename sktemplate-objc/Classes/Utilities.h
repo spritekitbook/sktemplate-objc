@@ -13,7 +13,7 @@
 static const BOOL kDebug = YES;
 
 
-#pragma mark - Screen Size
+#pragma mark - Screen Size and Positon
 static __inline CGSize ScreenSize() {
     return [UIScreen mainScreen].bounds.size;
 }
@@ -23,10 +23,15 @@ static __inline__ CGPoint ScreenCenter() {
     return CGPointMake(screenSize.width / 2, screenSize.height / 2);
 }
 
+static __inline__ CGPoint ScreenCenterBottom() {
+    CGSize screenSize = ScreenSize();
+    return CGPointMake(screenSize.width / 2, screenSize.height * 0.3);
+}
+
 
 #pragma mark - Animation Functions
-static __inline__ float Smooth(float a, float b, float filterFactor) {
-    return (a * (1 - filterFactor)) + b * filterFactor;
+static __inline__ float Smooth(float startingPoint, float endingPoint, float percentToMove) {
+    return (startingPoint * (1 - percentToMove)) + endingPoint * percentToMove;
 }
 
 #pragma mark - Color Functions
