@@ -7,6 +7,7 @@
 //
 
 #import "GameScene.h"
+#import "Floppy.h"
 
 
 #pragma mark - Class Private Interface
@@ -17,6 +18,9 @@
 
 // Calculate "Detla"
 @property NSTimeInterval lastUpdateTime;
+
+// Character
+@property Floppy *player;
 
 @end
 
@@ -55,6 +59,9 @@
         [label runAction:[SKAction scaleTo:1.0 duration:0.25]];
     }];
     
+    _player = [[Floppy alloc] init];
+    [self addChild:_player];
+    
 }
 
 
@@ -63,10 +70,7 @@
     UITouch *touch = [touches anyObject];
     CGPoint touchLocation = [touch locationInNode:self.scene];
     
-    
-    if (kDebug) {
-        NSLog(@"Touched Screen at X: %.2f, Y: %.2f", touchLocation.x, touchLocation.y);
-    }
+    [_player flyToPosition:touchLocation];
 }
 
 -(void)update:(NSTimeInterval)currentTime {
@@ -74,6 +78,8 @@
     NSTimeInterval delta = currentTime - _lastUpdateTime;
     _lastUpdateTime = currentTime;
     
+    
+    [_player update];
     
 }
 

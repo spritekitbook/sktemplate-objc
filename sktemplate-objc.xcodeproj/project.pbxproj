@@ -20,12 +20,6 @@
 		3F3773471C93B8B000BA805D /* GameFont@2x.xml in Resources */ = {isa = PBXBuildFile; fileRef = 3F3772E01C93B8B000BA805D /* GameFont@2x.xml */; };
 		3F3773481C93B8B000BA805D /* GameFont@2x~ipad.xml in Resources */ = {isa = PBXBuildFile; fileRef = 3F3772E11C93B8B000BA805D /* GameFont@2x~ipad.xml */; };
 		3F3773491C93B8B000BA805D /* GameFont~ipad.xml in Resources */ = {isa = PBXBuildFile; fileRef = 3F3772E21C93B8B000BA805D /* GameFont~ipad.xml */; };
-		3F37734A1C93B8B000BA805D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3772E41C93B8B000BA805D /* Default-568h@2x.png */; };
-		3F37734B1C93B8B000BA805D /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3772E51C93B8B000BA805D /* Default-667h@2x.png */; };
-		3F37734C1C93B8B000BA805D /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3772E61C93B8B000BA805D /* Default-736h@3x.png */; };
-		3F37734D1C93B8B000BA805D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3772E71C93B8B000BA805D /* Default@2x.png */; };
-		3F37734E1C93B8B000BA805D /* Default@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3772E81C93B8B000BA805D /* Default@2x~ipad.png */; };
-		3F37734F1C93B8B000BA805D /* Default~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3772E91C93B8B000BA805D /* Default~ipad.png */; };
 		3F3773521C93B8B000BA805D /* build_docs.sh in Resources */ = {isa = PBXBuildFile; fileRef = 3F3772EF1C93B8B000BA805D /* build_docs.sh */; };
 		3F3773531C93B8B000BA805D /* ObjectAL-Overview1.eps in Resources */ = {isa = PBXBuildFile; fileRef = 3F3772F11C93B8B000BA805D /* ObjectAL-Overview1.eps */; };
 		3F3773541C93B8B000BA805D /* ObjectAL-Overview1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3772F21C93B8B000BA805D /* ObjectAL-Overview1.png */; };
@@ -67,6 +61,13 @@
 		3F37737E1C93B91700BA805D /* BMGlyphLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F37737C1C93B91700BA805D /* BMGlyphLabel.m */; };
 		3F3773831C93C31500BA805D /* Destractor.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3F3773821C93C31500BA805D /* Destractor.mp3 */; };
 		3F3773851C93C33100BA805D /* Credits.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3F3773841C93C33100BA805D /* Credits.txt */; };
+		3F37738C1C93D2D600BA805D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3773861C93D2D600BA805D /* Default-568h@2x.png */; };
+		3F37738D1C93D2D600BA805D /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3773871C93D2D600BA805D /* Default-667h@2x.png */; };
+		3F37738E1C93D2D600BA805D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3773881C93D2D600BA805D /* Default@2x.png */; };
+		3F37738F1C93D2D600BA805D /* Default@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3773891C93D2D600BA805D /* Default@2x~ipad.png */; };
+		3F3773901C93D2D600BA805D /* Default@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F37738A1C93D2D600BA805D /* Default@3x.png */; };
+		3F3773911C93D2D600BA805D /* Default~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F37738B1C93D2D600BA805D /* Default~ipad.png */; };
+		3F3773951C93D39100BA805D /* Floppy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3773941C93D39100BA805D /* Floppy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,12 +110,6 @@
 		3F3772E01C93B8B000BA805D /* GameFont@2x.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GameFont@2x.xml"; sourceTree = "<group>"; };
 		3F3772E11C93B8B000BA805D /* GameFont@2x~ipad.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GameFont@2x~ipad.xml"; sourceTree = "<group>"; };
 		3F3772E21C93B8B000BA805D /* GameFont~ipad.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GameFont~ipad.xml"; sourceTree = "<group>"; };
-		3F3772E41C93B8B000BA805D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		3F3772E51C93B8B000BA805D /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667h@2x.png"; sourceTree = "<group>"; };
-		3F3772E61C93B8B000BA805D /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
-		3F3772E71C93B8B000BA805D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		3F3772E81C93B8B000BA805D /* Default@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x~ipad.png"; sourceTree = "<group>"; };
-		3F3772E91C93B8B000BA805D /* Default~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default~ipad.png"; sourceTree = "<group>"; };
 		3F3772EF1C93B8B000BA805D /* build_docs.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = build_docs.sh; sourceTree = "<group>"; };
 		3F3772F11C93B8B000BA805D /* ObjectAL-Overview1.eps */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ObjectAL-Overview1.eps"; sourceTree = "<group>"; };
 		3F3772F21C93B8B000BA805D /* ObjectAL-Overview1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ObjectAL-Overview1.png"; sourceTree = "<group>"; };
@@ -197,6 +192,14 @@
 		3F3773811C93BA4500BA805D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		3F3773821C93C31500BA805D /* Destractor.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Destractor.mp3; sourceTree = "<group>"; };
 		3F3773841C93C33100BA805D /* Credits.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Credits.txt; sourceTree = "<group>"; };
+		3F3773861C93D2D600BA805D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3F3773871C93D2D600BA805D /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667h@2x.png"; sourceTree = "<group>"; };
+		3F3773881C93D2D600BA805D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3F3773891C93D2D600BA805D /* Default@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x~ipad.png"; sourceTree = "<group>"; };
+		3F37738A1C93D2D600BA805D /* Default@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@3x.png"; sourceTree = "<group>"; };
+		3F37738B1C93D2D600BA805D /* Default~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default~ipad.png"; sourceTree = "<group>"; };
+		3F3773931C93D39100BA805D /* Floppy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Floppy.h; sourceTree = "<group>"; };
+		3F3773941C93D39100BA805D /* Floppy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Floppy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -286,6 +289,7 @@
 		3F3772D01C93B84800BA805D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				3F3773921C93D37300BA805D /* Characters */,
 				3F37737F1C93B95C00BA805D /* Utilties */,
 				3F3772DB1C93B89100BA805D /* Scenes */,
 				3F3772DA1C93B84E00BA805D /* View Controller */,
@@ -340,12 +344,12 @@
 		3F3772E31C93B8B000BA805D /* Launch */ = {
 			isa = PBXGroup;
 			children = (
-				3F3772E41C93B8B000BA805D /* Default-568h@2x.png */,
-				3F3772E51C93B8B000BA805D /* Default-667h@2x.png */,
-				3F3772E61C93B8B000BA805D /* Default-736h@3x.png */,
-				3F3772E71C93B8B000BA805D /* Default@2x.png */,
-				3F3772E81C93B8B000BA805D /* Default@2x~ipad.png */,
-				3F3772E91C93B8B000BA805D /* Default~ipad.png */,
+				3F3773861C93D2D600BA805D /* Default-568h@2x.png */,
+				3F3773871C93D2D600BA805D /* Default-667h@2x.png */,
+				3F3773881C93D2D600BA805D /* Default@2x.png */,
+				3F3773891C93D2D600BA805D /* Default@2x~ipad.png */,
+				3F37738A1C93D2D600BA805D /* Default@3x.png */,
+				3F37738B1C93D2D600BA805D /* Default~ipad.png */,
 			);
 			path = Launch;
 			sourceTree = "<group>";
@@ -540,6 +544,15 @@
 			name = Utilties;
 			sourceTree = "<group>";
 		};
+		3F3773921C93D37300BA805D /* Characters */ = {
+			isa = PBXGroup;
+			children = (
+				3F3773931C93D39100BA805D /* Floppy.h */,
+				3F3773941C93D39100BA805D /* Floppy.m */,
+			);
+			name = Characters;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -651,26 +664,26 @@
 				3F3773461C93B8B000BA805D /* GameFont.xml in Resources */,
 				3F3773541C93B8B000BA805D /* ObjectAL-Overview1.png in Resources */,
 				3F3773551C93B8B000BA805D /* ObjectAL-Overview1.svg in Resources */,
+				3F37738C1C93D2D600BA805D /* Default-568h@2x.png in Resources */,
+				3F37738E1C93D2D600BA805D /* Default@2x.png in Resources */,
+				3F3773901C93D2D600BA805D /* Default@3x.png in Resources */,
 				3F3773451C93B8B000BA805D /* GameFont.atlas in Resources */,
 				3F3773571C93B8B000BA805D /* ObjectAL-Overview2.png in Resources */,
+				3F37738F1C93D2D600BA805D /* Default@2x~ipad.png in Resources */,
 				3F3773471C93B8B000BA805D /* GameFont@2x.xml in Resources */,
+				3F3773911C93D2D600BA805D /* Default~ipad.png in Resources */,
 				3F3773611C93B8B000BA805D /* Info.plist in Resources */,
 				3F3773751C93B8B000BA805D /* InfoPlist.strings in Resources */,
-				3F37734B1C93B8B000BA805D /* Default-667h@2x.png in Resources */,
 				3F3773851C93C33100BA805D /* Credits.txt in Resources */,
 				3F3773761C93B8B000BA805D /* ObjectAL (OSX)-Info.plist in Resources */,
-				3F37734D1C93B8B000BA805D /* Default@2x.png in Resources */,
 				3F3772AA1C93B81100BA805D /* Assets.xcassets in Resources */,
-				3F37734A1C93B8B000BA805D /* Default-568h@2x.png in Resources */,
 				3F3773561C93B8B000BA805D /* ObjectAL-Overview2.eps in Resources */,
 				3F3773521C93B8B000BA805D /* build_docs.sh in Resources */,
-				3F37734C1C93B8B000BA805D /* Default-736h@3x.png in Resources */,
 				3F3773581C93B8B000BA805D /* ObjectAL-Overview2.svg in Resources */,
 				3F3773831C93C31500BA805D /* Destractor.mp3 in Resources */,
-				3F37734E1C93B8B000BA805D /* Default@2x~ipad.png in Resources */,
 				3F3773491C93B8B000BA805D /* GameFont~ipad.xml in Resources */,
+				3F37738D1C93D2D600BA805D /* Default-667h@2x.png in Resources */,
 				3F3772A81C93B81100BA805D /* Main.storyboard in Resources */,
-				3F37734F1C93B8B000BA805D /* Default~ipad.png in Resources */,
 				3F3773531C93B8B000BA805D /* ObjectAL-Overview1.eps in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -728,6 +741,7 @@
 				3F37735D1C93B8B000BA805D /* OALUtilityActions.m in Sources */,
 				3F3773691C93B8B000BA805D /* ALSoundSourcePool.m in Sources */,
 				3F3773651C93B8B000BA805D /* ALChannelSource.m in Sources */,
+				3F3773951C93D39100BA805D /* Floppy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
