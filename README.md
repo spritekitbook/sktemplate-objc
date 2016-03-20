@@ -1,6 +1,6 @@
 ## sktemplate-objc
 
-This is a template project you can use as an alternative to the Xcode SpriteKit template for Swift.
+This is a template project you can use as an alternative to the Xcode SpriteKit template for Objective-C.
 
 ### sktemplate-objc Features
 * ObjectAL. Includes [ObjectAL](http://kstenerud.github.io/ObjectAL-for-iPhone/) for *really* easy audio play back in your games.
