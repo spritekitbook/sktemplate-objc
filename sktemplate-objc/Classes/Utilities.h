@@ -10,7 +10,7 @@
 #define Constants_h
 
 #pragma mark - Debug
-static const BOOL kDebug = YES;
+static const BOOL kDebug = NO;
 
 
 #pragma mark - Screen Size and Positon
@@ -26,6 +26,11 @@ static __inline__ CGPoint ScreenCenter() {
 static __inline__ CGPoint ScreenCenterBottom() {
     CGSize screenSize = ScreenSize();
     return CGPointMake(screenSize.width / 2, screenSize.height * 0.3);
+}
+
+static __inline__ CGPoint ScreenCenterTop() {
+    CGSize screenSize = ScreenSize();
+    return CGPointMake(screenSize.width / 2, screenSize.height * 0.7);
 }
 
 

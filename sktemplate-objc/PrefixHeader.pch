@@ -20,6 +20,12 @@
 // BMGlypFont / BMGlyphLabel
 #import "BMGlyphFont.h"
 #import "BMGlyphLabel.h"
+// GameTextures Singleton
+#import "GameTextures.h"
+// Sound Name Constants
+#import "SoundNames.h"
+// Image Name Constnats
+#import "SpriteNames.h"
 
 #endif
 

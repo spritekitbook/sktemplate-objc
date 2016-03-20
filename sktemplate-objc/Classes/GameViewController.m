@@ -37,10 +37,13 @@
         [skView presentScene:scene transition:transition];
         
         // Preload the game music
-        [[OALSimpleAudio sharedInstance] preloadBg:@"Destractor.mp3"];
+        [[OALSimpleAudio sharedInstance] preloadBg:MUSIC];
         
         // Play the game music in a loop
-        [[OALSimpleAudio sharedInstance] playBg:@"Destractor.mp3" loop:YES];
+        [[OALSimpleAudio sharedInstance] playBg:MUSIC loop:YES];
+        
+        // Play the background music at 50% volume.
+        [OALSimpleAudio sharedInstance].bgVolume = 0.5;
         
         
         if (kDebug) {

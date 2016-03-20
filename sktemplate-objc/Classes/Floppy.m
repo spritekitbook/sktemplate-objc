@@ -22,7 +22,7 @@
 -(instancetype)init {
     if ((self = [super init])) {
         
-        SKTexture *texture = [[SKTextureAtlas atlasNamed:@"Sprites"] textureNamed:@"PinkBird0"];
+        SKTexture *texture = [[GameTextures sharedInstance] textureWithName:BIRD0];
         self = [Floppy spriteNodeWithTexture:texture];
         
         [self setup];
@@ -40,10 +40,10 @@
 
 -(void)setupAnimation {
     
-    SKTexture *frame0 = [[SKTextureAtlas atlasNamed:@"Sprites"] textureNamed:@"PinkBird0"];
-    SKTexture *frame1 = [[SKTextureAtlas atlasNamed:@"Sprites"] textureNamed:@"PinkBird1"];
-    SKTexture *frame2 = [[SKTextureAtlas atlasNamed:@"Sprites"] textureNamed:@"PinkBird2"];
-    SKTexture *frame3 = [[SKTextureAtlas atlasNamed:@"Sprites"] textureNamed:@"PinkBird3"];
+    SKTexture *frame0 = [[GameTextures sharedInstance] textureWithName:BIRD0];
+    SKTexture *frame1 = [[GameTextures sharedInstance] textureWithName:BIRD1];
+    SKTexture *frame2 = [[GameTextures sharedInstance] textureWithName:BIRD2];
+    SKTexture *frame3 = [[GameTextures sharedInstance] textureWithName:BIRD3];
     
     _flapAnimation = [SKAction animateWithTextures:@[frame0, frame1, frame2, frame3] timePerFrame:0.12];
     

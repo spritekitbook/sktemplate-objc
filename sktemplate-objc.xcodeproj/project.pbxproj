@@ -15,11 +15,6 @@
 		3F3772D71C93B84800BA805D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3772D21C93B84800BA805D /* AppDelegate.m */; };
 		3F3772D81C93B84800BA805D /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3772D41C93B84800BA805D /* GameScene.m */; };
 		3F3772D91C93B84800BA805D /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3772D61C93B84800BA805D /* GameViewController.m */; };
-		3F3773451C93B8B000BA805D /* GameFont.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 3F3772DE1C93B8B000BA805D /* GameFont.atlas */; };
-		3F3773461C93B8B000BA805D /* GameFont.xml in Resources */ = {isa = PBXBuildFile; fileRef = 3F3772DF1C93B8B000BA805D /* GameFont.xml */; };
-		3F3773471C93B8B000BA805D /* GameFont@2x.xml in Resources */ = {isa = PBXBuildFile; fileRef = 3F3772E01C93B8B000BA805D /* GameFont@2x.xml */; };
-		3F3773481C93B8B000BA805D /* GameFont@2x~ipad.xml in Resources */ = {isa = PBXBuildFile; fileRef = 3F3772E11C93B8B000BA805D /* GameFont@2x~ipad.xml */; };
-		3F3773491C93B8B000BA805D /* GameFont~ipad.xml in Resources */ = {isa = PBXBuildFile; fileRef = 3F3772E21C93B8B000BA805D /* GameFont~ipad.xml */; };
 		3F3773521C93B8B000BA805D /* build_docs.sh in Resources */ = {isa = PBXBuildFile; fileRef = 3F3772EF1C93B8B000BA805D /* build_docs.sh */; };
 		3F3773531C93B8B000BA805D /* ObjectAL-Overview1.eps in Resources */ = {isa = PBXBuildFile; fileRef = 3F3772F11C93B8B000BA805D /* ObjectAL-Overview1.eps */; };
 		3F3773541C93B8B000BA805D /* ObjectAL-Overview1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3772F21C93B8B000BA805D /* ObjectAL-Overview1.png */; };
@@ -59,8 +54,6 @@
 		3F3773761C93B8B000BA805D /* ObjectAL (OSX)-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F3773411C93B8B000BA805D /* ObjectAL (OSX)-Info.plist */; };
 		3F37737D1C93B91700BA805D /* BMGlyphFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F37737A1C93B91700BA805D /* BMGlyphFont.m */; };
 		3F37737E1C93B91700BA805D /* BMGlyphLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F37737C1C93B91700BA805D /* BMGlyphLabel.m */; };
-		3F3773831C93C31500BA805D /* Destractor.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3F3773821C93C31500BA805D /* Destractor.mp3 */; };
-		3F3773851C93C33100BA805D /* Credits.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3F3773841C93C33100BA805D /* Credits.txt */; };
 		3F37738C1C93D2D600BA805D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3773861C93D2D600BA805D /* Default-568h@2x.png */; };
 		3F37738D1C93D2D600BA805D /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3773871C93D2D600BA805D /* Default-667h@2x.png */; };
 		3F37738E1C93D2D600BA805D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3773881C93D2D600BA805D /* Default@2x.png */; };
@@ -68,6 +61,16 @@
 		3F3773901C93D2D600BA805D /* Default@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F37738A1C93D2D600BA805D /* Default@3x.png */; };
 		3F3773911C93D2D600BA805D /* Default~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F37738B1C93D2D600BA805D /* Default~ipad.png */; };
 		3F3773951C93D39100BA805D /* Floppy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3773941C93D39100BA805D /* Floppy.m */; };
+		3F46F5D21C9F1FE200E31A06 /* GameFont.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 3F46F5D11C9F1FE200E31A06 /* GameFont.atlas */; };
+		3F46F5D81C9F1FED00E31A06 /* GameFont.xml in Resources */ = {isa = PBXBuildFile; fileRef = 3F46F5D31C9F1FED00E31A06 /* GameFont.xml */; };
+		3F46F5D91C9F1FED00E31A06 /* GameFont@2x.xml in Resources */ = {isa = PBXBuildFile; fileRef = 3F46F5D41C9F1FED00E31A06 /* GameFont@2x.xml */; };
+		3F46F5DA1C9F1FED00E31A06 /* GameFont@2x~ipad.xml in Resources */ = {isa = PBXBuildFile; fileRef = 3F46F5D51C9F1FED00E31A06 /* GameFont@2x~ipad.xml */; };
+		3F46F5DB1C9F1FED00E31A06 /* GameFont@3x.xml in Resources */ = {isa = PBXBuildFile; fileRef = 3F46F5D61C9F1FED00E31A06 /* GameFont@3x.xml */; };
+		3F46F5DC1C9F1FED00E31A06 /* GameFont~ipad.xml in Resources */ = {isa = PBXBuildFile; fileRef = 3F46F5D71C9F1FED00E31A06 /* GameFont~ipad.xml */; };
+		3F46F5DF1C9F200200E31A06 /* Pop.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3F46F5DE1C9F200200E31A06 /* Pop.caf */; };
+		3F46F5E21C9F201D00E31A06 /* Credits.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3F46F5E01C9F201D00E31A06 /* Credits.txt */; };
+		3F46F5E31C9F201D00E31A06 /* Pinecones.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3F46F5E11C9F201D00E31A06 /* Pinecones.mp3 */; };
+		3F46F5E71C9F209C00E31A06 /* GameTextures.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F46F5E61C9F209C00E31A06 /* GameTextures.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,11 +108,6 @@
 		3F3772D41C93B84800BA805D /* GameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
 		3F3772D51C93B84800BA805D /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
 		3F3772D61C93B84800BA805D /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
-		3F3772DE1C93B8B000BA805D /* GameFont.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = GameFont.atlas; sourceTree = "<group>"; };
-		3F3772DF1C93B8B000BA805D /* GameFont.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = GameFont.xml; sourceTree = "<group>"; };
-		3F3772E01C93B8B000BA805D /* GameFont@2x.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GameFont@2x.xml"; sourceTree = "<group>"; };
-		3F3772E11C93B8B000BA805D /* GameFont@2x~ipad.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GameFont@2x~ipad.xml"; sourceTree = "<group>"; };
-		3F3772E21C93B8B000BA805D /* GameFont~ipad.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GameFont~ipad.xml"; sourceTree = "<group>"; };
 		3F3772EF1C93B8B000BA805D /* build_docs.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = build_docs.sh; sourceTree = "<group>"; };
 		3F3772F11C93B8B000BA805D /* ObjectAL-Overview1.eps */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ObjectAL-Overview1.eps"; sourceTree = "<group>"; };
 		3F3772F21C93B8B000BA805D /* ObjectAL-Overview1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ObjectAL-Overview1.png"; sourceTree = "<group>"; };
@@ -190,8 +188,6 @@
 		3F37737C1C93B91700BA805D /* BMGlyphLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMGlyphLabel.m; sourceTree = "<group>"; };
 		3F3773801C93B96F00BA805D /* Utilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
 		3F3773811C93BA4500BA805D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		3F3773821C93C31500BA805D /* Destractor.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Destractor.mp3; sourceTree = "<group>"; };
-		3F3773841C93C33100BA805D /* Credits.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Credits.txt; sourceTree = "<group>"; };
 		3F3773861C93D2D600BA805D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		3F3773871C93D2D600BA805D /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667h@2x.png"; sourceTree = "<group>"; };
 		3F3773881C93D2D600BA805D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
@@ -200,6 +196,19 @@
 		3F37738B1C93D2D600BA805D /* Default~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default~ipad.png"; sourceTree = "<group>"; };
 		3F3773931C93D39100BA805D /* Floppy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Floppy.h; sourceTree = "<group>"; };
 		3F3773941C93D39100BA805D /* Floppy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Floppy.m; sourceTree = "<group>"; };
+		3F46F5D11C9F1FE200E31A06 /* GameFont.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = GameFont.atlas; sourceTree = "<group>"; };
+		3F46F5D31C9F1FED00E31A06 /* GameFont.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = GameFont.xml; sourceTree = "<group>"; };
+		3F46F5D41C9F1FED00E31A06 /* GameFont@2x.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GameFont@2x.xml"; sourceTree = "<group>"; };
+		3F46F5D51C9F1FED00E31A06 /* GameFont@2x~ipad.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GameFont@2x~ipad.xml"; sourceTree = "<group>"; };
+		3F46F5D61C9F1FED00E31A06 /* GameFont@3x.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GameFont@3x.xml"; sourceTree = "<group>"; };
+		3F46F5D71C9F1FED00E31A06 /* GameFont~ipad.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GameFont~ipad.xml"; sourceTree = "<group>"; };
+		3F46F5DE1C9F200200E31A06 /* Pop.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pop.caf; sourceTree = "<group>"; };
+		3F46F5E01C9F201D00E31A06 /* Credits.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Credits.txt; sourceTree = "<group>"; };
+		3F46F5E11C9F201D00E31A06 /* Pinecones.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Pinecones.mp3; sourceTree = "<group>"; };
+		3F46F5E51C9F209C00E31A06 /* GameTextures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameTextures.h; sourceTree = "<group>"; };
+		3F46F5E61C9F209C00E31A06 /* GameTextures.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameTextures.m; sourceTree = "<group>"; };
+		3F46F5E81C9F20D300E31A06 /* SoundNames.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoundNames.h; sourceTree = "<group>"; };
+		3F46F5E91C9F213C00E31A06 /* SpriteNames.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpriteNames.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -290,6 +299,7 @@
 			isa = PBXGroup;
 			children = (
 				3F3773921C93D37300BA805D /* Characters */,
+				3F46F5E41C9F206900E31A06 /* Singletons */,
 				3F37737F1C93B95C00BA805D /* Utilties */,
 				3F3772DB1C93B89100BA805D /* Scenes */,
 				3F3772DA1C93B84E00BA805D /* View Controller */,
@@ -321,6 +331,7 @@
 		3F3772DC1C93B8B000BA805D /* GameResources */ = {
 			isa = PBXGroup;
 			children = (
+				3F46F5DD1C9F200200E31A06 /* Sounds */,
 				3F3772DD1C93B8B000BA805D /* Fonts */,
 				3F3772E31C93B8B000BA805D /* Launch */,
 				3F3772EA1C93B8B000BA805D /* Library */,
@@ -332,11 +343,12 @@
 		3F3772DD1C93B8B000BA805D /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				3F3772DE1C93B8B000BA805D /* GameFont.atlas */,
-				3F3772DF1C93B8B000BA805D /* GameFont.xml */,
-				3F3772E01C93B8B000BA805D /* GameFont@2x.xml */,
-				3F3772E11C93B8B000BA805D /* GameFont@2x~ipad.xml */,
-				3F3772E21C93B8B000BA805D /* GameFont~ipad.xml */,
+				3F46F5D11C9F1FE200E31A06 /* GameFont.atlas */,
+				3F46F5D31C9F1FED00E31A06 /* GameFont.xml */,
+				3F46F5D41C9F1FED00E31A06 /* GameFont@2x.xml */,
+				3F46F5D51C9F1FED00E31A06 /* GameFont@2x~ipad.xml */,
+				3F46F5D61C9F1FED00E31A06 /* GameFont@3x.xml */,
+				3F46F5D71C9F1FED00E31A06 /* GameFont~ipad.xml */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -519,8 +531,8 @@
 		3F3773431C93B8B000BA805D /* Music */ = {
 			isa = PBXGroup;
 			children = (
-				3F3773821C93C31500BA805D /* Destractor.mp3 */,
-				3F3773841C93C33100BA805D /* Credits.txt */,
+				3F46F5E01C9F201D00E31A06 /* Credits.txt */,
+				3F46F5E11C9F201D00E31A06 /* Pinecones.mp3 */,
 			);
 			path = Music;
 			sourceTree = "<group>";
@@ -540,6 +552,8 @@
 			isa = PBXGroup;
 			children = (
 				3F3773801C93B96F00BA805D /* Utilities.h */,
+				3F46F5E81C9F20D300E31A06 /* SoundNames.h */,
+				3F46F5E91C9F213C00E31A06 /* SpriteNames.h */,
 			);
 			name = Utilties;
 			sourceTree = "<group>";
@@ -551,6 +565,23 @@
 				3F3773941C93D39100BA805D /* Floppy.m */,
 			);
 			name = Characters;
+			sourceTree = "<group>";
+		};
+		3F46F5DD1C9F200200E31A06 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				3F46F5DE1C9F200200E31A06 /* Pop.caf */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		3F46F5E41C9F206900E31A06 /* Singletons */ = {
+			isa = PBXGroup;
+			children = (
+				3F46F5E51C9F209C00E31A06 /* GameTextures.h */,
+				3F46F5E61C9F209C00E31A06 /* GameTextures.m */,
+			);
+			name = Singletons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -660,31 +691,33 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F3773591C93B8B000BA805D /* LICENSE.ObjectAL.txt in Resources */,
-				3F3773481C93B8B000BA805D /* GameFont@2x~ipad.xml in Resources */,
-				3F3773461C93B8B000BA805D /* GameFont.xml in Resources */,
+				3F46F5D91C9F1FED00E31A06 /* GameFont@2x.xml in Resources */,
 				3F3773541C93B8B000BA805D /* ObjectAL-Overview1.png in Resources */,
 				3F3773551C93B8B000BA805D /* ObjectAL-Overview1.svg in Resources */,
 				3F37738C1C93D2D600BA805D /* Default-568h@2x.png in Resources */,
 				3F37738E1C93D2D600BA805D /* Default@2x.png in Resources */,
 				3F3773901C93D2D600BA805D /* Default@3x.png in Resources */,
-				3F3773451C93B8B000BA805D /* GameFont.atlas in Resources */,
 				3F3773571C93B8B000BA805D /* ObjectAL-Overview2.png in Resources */,
 				3F37738F1C93D2D600BA805D /* Default@2x~ipad.png in Resources */,
-				3F3773471C93B8B000BA805D /* GameFont@2x.xml in Resources */,
 				3F3773911C93D2D600BA805D /* Default~ipad.png in Resources */,
+				3F46F5E21C9F201D00E31A06 /* Credits.txt in Resources */,
 				3F3773611C93B8B000BA805D /* Info.plist in Resources */,
+				3F46F5DC1C9F1FED00E31A06 /* GameFont~ipad.xml in Resources */,
+				3F46F5D21C9F1FE200E31A06 /* GameFont.atlas in Resources */,
 				3F3773751C93B8B000BA805D /* InfoPlist.strings in Resources */,
-				3F3773851C93C33100BA805D /* Credits.txt in Resources */,
 				3F3773761C93B8B000BA805D /* ObjectAL (OSX)-Info.plist in Resources */,
 				3F3772AA1C93B81100BA805D /* Assets.xcassets in Resources */,
 				3F3773561C93B8B000BA805D /* ObjectAL-Overview2.eps in Resources */,
+				3F46F5DF1C9F200200E31A06 /* Pop.caf in Resources */,
 				3F3773521C93B8B000BA805D /* build_docs.sh in Resources */,
 				3F3773581C93B8B000BA805D /* ObjectAL-Overview2.svg in Resources */,
-				3F3773831C93C31500BA805D /* Destractor.mp3 in Resources */,
-				3F3773491C93B8B000BA805D /* GameFont~ipad.xml in Resources */,
+				3F46F5DB1C9F1FED00E31A06 /* GameFont@3x.xml in Resources */,
 				3F37738D1C93D2D600BA805D /* Default-667h@2x.png in Resources */,
+				3F46F5E31C9F201D00E31A06 /* Pinecones.mp3 in Resources */,
+				3F46F5D81C9F1FED00E31A06 /* GameFont.xml in Resources */,
 				3F3772A81C93B81100BA805D /* Main.storyboard in Resources */,
 				3F3773531C93B8B000BA805D /* ObjectAL-Overview1.eps in Resources */,
+				3F46F5DA1C9F1FED00E31A06 /* GameFont@2x~ipad.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -722,6 +755,7 @@
 				3F37736D1C93B8B000BA805D /* OALAudioSession.m in Sources */,
 				3F3773711C93B8B000BA805D /* NSMutableArray+WeakReferences.m in Sources */,
 				3F3773601C93B8B000BA805D /* OALAudioTracks.m in Sources */,
+				3F46F5E71C9F209C00E31A06 /* GameTextures.m in Sources */,
 				3F3773701C93B8B000BA805D /* mach_timing.c in Sources */,
 				3F37729A1C93B81100BA805D /* main.m in Sources */,
 				3F37735E1C93B8B000BA805D /* OALAudioTrack.m in Sources */,
@@ -974,6 +1008,7 @@
 				3F3772C91C93B81100BA805D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F3772CA1C93B81100BA805D /* Build configuration list for PBXNativeTarget "sktemplate-objcTests" */ = {
 			isa = XCConfigurationList;
@@ -982,6 +1017,7 @@
 				3F3772CC1C93B81100BA805D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F3772CD1C93B81100BA805D /* Build configuration list for PBXNativeTarget "sktemplate-objcUITests" */ = {
 			isa = XCConfigurationList;
@@ -990,6 +1026,7 @@
 				3F3772CF1C93B81100BA805D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

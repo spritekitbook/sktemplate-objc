@@ -68,6 +68,8 @@
     
     [_player flyToPosition:touchLocation];
     
+    [[OALSimpleAudio sharedInstance] playEffect:POP];
+    
 }
 
 -(void)update:(NSTimeInterval)currentTime {
