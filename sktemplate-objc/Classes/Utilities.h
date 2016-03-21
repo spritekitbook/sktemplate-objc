@@ -50,8 +50,5 @@ static __inline__ int RandomIntegerBetween(int min, int max) {
     return min + arc4random_uniform(max - min + 1);
 }
 
-static __inline__ CGFloat RandomFloatRange(CGFloat min, CGFloat max) {
-    return ((CGFloat)arc4random() / 0xFFFFFFFFu) * (max - min) + min;
-}
 
 #endif /* Constants_h */

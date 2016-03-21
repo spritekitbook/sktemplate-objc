@@ -1,4 +1,7 @@
-## Changelog for sktemplate-swift
+## Changelog for sktemplate-objc
+
+### 03/21/2016
+- Added [SKTUtils](https://github.com/raywenderlich/SKTUtils) to project.
 
 ### 03/20/2016
 - Updated GameFonts bitmap font to include @3x size.

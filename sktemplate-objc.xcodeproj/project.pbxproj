@@ -16,13 +16,6 @@
 		3F3772D81C93B84800BA805D /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3772D41C93B84800BA805D /* GameScene.m */; };
 		3F3772D91C93B84800BA805D /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3772D61C93B84800BA805D /* GameViewController.m */; };
 		3F3773521C93B8B000BA805D /* build_docs.sh in Resources */ = {isa = PBXBuildFile; fileRef = 3F3772EF1C93B8B000BA805D /* build_docs.sh */; };
-		3F3773531C93B8B000BA805D /* ObjectAL-Overview1.eps in Resources */ = {isa = PBXBuildFile; fileRef = 3F3772F11C93B8B000BA805D /* ObjectAL-Overview1.eps */; };
-		3F3773541C93B8B000BA805D /* ObjectAL-Overview1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3772F21C93B8B000BA805D /* ObjectAL-Overview1.png */; };
-		3F3773551C93B8B000BA805D /* ObjectAL-Overview1.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3F3772F31C93B8B000BA805D /* ObjectAL-Overview1.svg */; };
-		3F3773561C93B8B000BA805D /* ObjectAL-Overview2.eps in Resources */ = {isa = PBXBuildFile; fileRef = 3F3772F41C93B8B000BA805D /* ObjectAL-Overview2.eps */; };
-		3F3773571C93B8B000BA805D /* ObjectAL-Overview2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3772F51C93B8B000BA805D /* ObjectAL-Overview2.png */; };
-		3F3773581C93B8B000BA805D /* ObjectAL-Overview2.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3F3772F61C93B8B000BA805D /* ObjectAL-Overview2.svg */; };
-		3F3773591C93B8B000BA805D /* LICENSE.ObjectAL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3F3772F91C93B8B000BA805D /* LICENSE.ObjectAL.txt */; };
 		3F37735A1C93B8B000BA805D /* OALAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3772FE1C93B8B000BA805D /* OALAction.m */; };
 		3F37735B1C93B8B000BA805D /* OALActionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3773001C93B8B000BA805D /* OALActionManager.m */; };
 		3F37735C1C93B8B000BA805D /* OALAudioActions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3773021C93B8B000BA805D /* OALAudioActions.m */; };
@@ -68,9 +61,16 @@
 		3F46F5DB1C9F1FED00E31A06 /* GameFont@3x.xml in Resources */ = {isa = PBXBuildFile; fileRef = 3F46F5D61C9F1FED00E31A06 /* GameFont@3x.xml */; };
 		3F46F5DC1C9F1FED00E31A06 /* GameFont~ipad.xml in Resources */ = {isa = PBXBuildFile; fileRef = 3F46F5D71C9F1FED00E31A06 /* GameFont~ipad.xml */; };
 		3F46F5DF1C9F200200E31A06 /* Pop.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3F46F5DE1C9F200200E31A06 /* Pop.caf */; };
-		3F46F5E21C9F201D00E31A06 /* Credits.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3F46F5E01C9F201D00E31A06 /* Credits.txt */; };
 		3F46F5E31C9F201D00E31A06 /* Pinecones.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3F46F5E11C9F201D00E31A06 /* Pinecones.mp3 */; };
 		3F46F5E71C9F209C00E31A06 /* GameTextures.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F46F5E61C9F209C00E31A06 /* GameTextures.m */; };
+		3F74D9651CA0729300CDD313 /* SKAction+SKTExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F74D9551CA0729300CDD313 /* SKAction+SKTExtras.m */; };
+		3F74D9661CA0729300CDD313 /* SKAction+SKTSpecialEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F74D9571CA0729300CDD313 /* SKAction+SKTSpecialEffects.m */; };
+		3F74D9671CA0729300CDD313 /* SKEmitterNode+SKTExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F74D9591CA0729300CDD313 /* SKEmitterNode+SKTExtras.m */; };
+		3F74D9681CA0729300CDD313 /* SKNode+SKTDebugDraw.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F74D95B1CA0729300CDD313 /* SKNode+SKTDebugDraw.m */; };
+		3F74D9691CA0729300CDD313 /* SKNode+SKTExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F74D95D1CA0729300CDD313 /* SKNode+SKTExtras.m */; };
+		3F74D96A1CA0729300CDD313 /* SKTAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F74D95F1CA0729300CDD313 /* SKTAudio.m */; };
+		3F74D96B1CA0729300CDD313 /* SKTEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F74D9611CA0729300CDD313 /* SKTEffects.m */; };
+		3F74D96C1CA0729300CDD313 /* SKTTimingFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F74D9631CA0729300CDD313 /* SKTTimingFunctions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -209,6 +209,25 @@
 		3F46F5E61C9F209C00E31A06 /* GameTextures.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameTextures.m; sourceTree = "<group>"; };
 		3F46F5E81C9F20D300E31A06 /* SoundNames.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoundNames.h; sourceTree = "<group>"; };
 		3F46F5E91C9F213C00E31A06 /* SpriteNames.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpriteNames.h; sourceTree = "<group>"; };
+		3F74D9541CA0729300CDD313 /* SKAction+SKTExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKAction+SKTExtras.h"; sourceTree = "<group>"; };
+		3F74D9551CA0729300CDD313 /* SKAction+SKTExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKAction+SKTExtras.m"; sourceTree = "<group>"; };
+		3F74D9561CA0729300CDD313 /* SKAction+SKTSpecialEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKAction+SKTSpecialEffects.h"; sourceTree = "<group>"; };
+		3F74D9571CA0729300CDD313 /* SKAction+SKTSpecialEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKAction+SKTSpecialEffects.m"; sourceTree = "<group>"; };
+		3F74D9581CA0729300CDD313 /* SKEmitterNode+SKTExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKEmitterNode+SKTExtras.h"; sourceTree = "<group>"; };
+		3F74D9591CA0729300CDD313 /* SKEmitterNode+SKTExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKEmitterNode+SKTExtras.m"; sourceTree = "<group>"; };
+		3F74D95A1CA0729300CDD313 /* SKNode+SKTDebugDraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKNode+SKTDebugDraw.h"; sourceTree = "<group>"; };
+		3F74D95B1CA0729300CDD313 /* SKNode+SKTDebugDraw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKNode+SKTDebugDraw.m"; sourceTree = "<group>"; };
+		3F74D95C1CA0729300CDD313 /* SKNode+SKTExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKNode+SKTExtras.h"; sourceTree = "<group>"; };
+		3F74D95D1CA0729300CDD313 /* SKNode+SKTExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKNode+SKTExtras.m"; sourceTree = "<group>"; };
+		3F74D95E1CA0729300CDD313 /* SKTAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTAudio.h; sourceTree = "<group>"; };
+		3F74D95F1CA0729300CDD313 /* SKTAudio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTAudio.m; sourceTree = "<group>"; };
+		3F74D9601CA0729300CDD313 /* SKTEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTEffects.h; sourceTree = "<group>"; };
+		3F74D9611CA0729300CDD313 /* SKTEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTEffects.m; sourceTree = "<group>"; };
+		3F74D9621CA0729300CDD313 /* SKTTimingFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTTimingFunctions.h; sourceTree = "<group>"; };
+		3F74D9631CA0729300CDD313 /* SKTTimingFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTTimingFunctions.m; sourceTree = "<group>"; };
+		3F74D9641CA0729300CDD313 /* SKTUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTUtils.h; sourceTree = "<group>"; };
+		3F74D96D1CA0729F00CDD313 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		3F74D96E1CA0729F00CDD313 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -369,6 +388,7 @@
 		3F3772EA1C93B8B000BA805D /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				3F74D9531CA0729300CDD313 /* SKTUtils */,
 				3F3773781C93B91700BA805D /* BMGlyphLabel */,
 				3F3772EE1C93B8B000BA805D /* ObjectAL */,
 			);
@@ -584,6 +604,32 @@
 			name = Singletons;
 			sourceTree = "<group>";
 		};
+		3F74D9531CA0729300CDD313 /* SKTUtils */ = {
+			isa = PBXGroup;
+			children = (
+				3F74D96D1CA0729F00CDD313 /* LICENSE.txt */,
+				3F74D96E1CA0729F00CDD313 /* README.md */,
+				3F74D9541CA0729300CDD313 /* SKAction+SKTExtras.h */,
+				3F74D9551CA0729300CDD313 /* SKAction+SKTExtras.m */,
+				3F74D9561CA0729300CDD313 /* SKAction+SKTSpecialEffects.h */,
+				3F74D9571CA0729300CDD313 /* SKAction+SKTSpecialEffects.m */,
+				3F74D9581CA0729300CDD313 /* SKEmitterNode+SKTExtras.h */,
+				3F74D9591CA0729300CDD313 /* SKEmitterNode+SKTExtras.m */,
+				3F74D95A1CA0729300CDD313 /* SKNode+SKTDebugDraw.h */,
+				3F74D95B1CA0729300CDD313 /* SKNode+SKTDebugDraw.m */,
+				3F74D95C1CA0729300CDD313 /* SKNode+SKTExtras.h */,
+				3F74D95D1CA0729300CDD313 /* SKNode+SKTExtras.m */,
+				3F74D95E1CA0729300CDD313 /* SKTAudio.h */,
+				3F74D95F1CA0729300CDD313 /* SKTAudio.m */,
+				3F74D9601CA0729300CDD313 /* SKTEffects.h */,
+				3F74D9611CA0729300CDD313 /* SKTEffects.m */,
+				3F74D9621CA0729300CDD313 /* SKTTimingFunctions.h */,
+				3F74D9631CA0729300CDD313 /* SKTTimingFunctions.m */,
+				3F74D9641CA0729300CDD313 /* SKTUtils.h */,
+			);
+			path = SKTUtils;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -690,33 +736,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F3773591C93B8B000BA805D /* LICENSE.ObjectAL.txt in Resources */,
 				3F46F5D91C9F1FED00E31A06 /* GameFont@2x.xml in Resources */,
-				3F3773541C93B8B000BA805D /* ObjectAL-Overview1.png in Resources */,
-				3F3773551C93B8B000BA805D /* ObjectAL-Overview1.svg in Resources */,
 				3F37738C1C93D2D600BA805D /* Default-568h@2x.png in Resources */,
 				3F37738E1C93D2D600BA805D /* Default@2x.png in Resources */,
 				3F3773901C93D2D600BA805D /* Default@3x.png in Resources */,
-				3F3773571C93B8B000BA805D /* ObjectAL-Overview2.png in Resources */,
 				3F37738F1C93D2D600BA805D /* Default@2x~ipad.png in Resources */,
 				3F3773911C93D2D600BA805D /* Default~ipad.png in Resources */,
-				3F46F5E21C9F201D00E31A06 /* Credits.txt in Resources */,
 				3F3773611C93B8B000BA805D /* Info.plist in Resources */,
 				3F46F5DC1C9F1FED00E31A06 /* GameFont~ipad.xml in Resources */,
 				3F46F5D21C9F1FE200E31A06 /* GameFont.atlas in Resources */,
 				3F3773751C93B8B000BA805D /* InfoPlist.strings in Resources */,
 				3F3773761C93B8B000BA805D /* ObjectAL (OSX)-Info.plist in Resources */,
 				3F3772AA1C93B81100BA805D /* Assets.xcassets in Resources */,
-				3F3773561C93B8B000BA805D /* ObjectAL-Overview2.eps in Resources */,
 				3F46F5DF1C9F200200E31A06 /* Pop.caf in Resources */,
 				3F3773521C93B8B000BA805D /* build_docs.sh in Resources */,
-				3F3773581C93B8B000BA805D /* ObjectAL-Overview2.svg in Resources */,
 				3F46F5DB1C9F1FED00E31A06 /* GameFont@3x.xml in Resources */,
 				3F37738D1C93D2D600BA805D /* Default-667h@2x.png in Resources */,
 				3F46F5E31C9F201D00E31A06 /* Pinecones.mp3 in Resources */,
 				3F46F5D81C9F1FED00E31A06 /* GameFont.xml in Resources */,
 				3F3772A81C93B81100BA805D /* Main.storyboard in Resources */,
-				3F3773531C93B8B000BA805D /* ObjectAL-Overview1.eps in Resources */,
 				3F46F5DA1C9F1FED00E31A06 /* GameFont@2x~ipad.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -751,27 +789,35 @@
 				3F37736C1C93B8B000BA805D /* OpenALManager.m in Sources */,
 				3F3772D81C93B84800BA805D /* GameScene.m in Sources */,
 				3F3773721C93B8B000BA805D /* NSMutableDictionary+WeakReferences.m in Sources */,
+				3F74D96A1CA0729300CDD313 /* SKTAudio.m in Sources */,
 				3F37736A1C93B8B000BA805D /* ALSource.m in Sources */,
 				3F37736D1C93B8B000BA805D /* OALAudioSession.m in Sources */,
+				3F74D96B1CA0729300CDD313 /* SKTEffects.m in Sources */,
 				3F3773711C93B8B000BA805D /* NSMutableArray+WeakReferences.m in Sources */,
 				3F3773601C93B8B000BA805D /* OALAudioTracks.m in Sources */,
 				3F46F5E71C9F209C00E31A06 /* GameTextures.m in Sources */,
 				3F3773701C93B8B000BA805D /* mach_timing.c in Sources */,
 				3F37729A1C93B81100BA805D /* main.m in Sources */,
 				3F37735E1C93B8B000BA805D /* OALAudioTrack.m in Sources */,
+				3F74D9661CA0729300CDD313 /* SKAction+SKTSpecialEffects.m in Sources */,
+				3F74D9651CA0729300CDD313 /* SKAction+SKTExtras.m in Sources */,
+				3F74D9671CA0729300CDD313 /* SKEmitterNode+SKTExtras.m in Sources */,
 				3F3773661C93B8B000BA805D /* ALContext.m in Sources */,
 				3F37736E1C93B8B000BA805D /* OALSuspendHandler.m in Sources */,
+				3F74D9681CA0729300CDD313 /* SKNode+SKTDebugDraw.m in Sources */,
 				3F3773741C93B8B000BA805D /* OALTools.m in Sources */,
 				3F37735A1C93B8B000BA805D /* OALAction.m in Sources */,
 				3F3773681C93B8B000BA805D /* ALListener.m in Sources */,
 				3F3773631C93B8B000BA805D /* ALBuffer.m in Sources */,
 				3F37735F1C93B8B000BA805D /* OALAudioTrackNotifications.m in Sources */,
+				3F74D96C1CA0729300CDD313 /* SKTTimingFunctions.m in Sources */,
 				3F3773671C93B8B000BA805D /* ALDevice.m in Sources */,
 				3F37735C1C93B8B000BA805D /* OALAudioActions.m in Sources */,
 				3F3773621C93B8B000BA805D /* OALSimpleAudio.m in Sources */,
 				3F3773641C93B8B000BA805D /* ALCaptureDevice.m in Sources */,
 				3F37736B1C93B8B000BA805D /* ALWrapper.m in Sources */,
 				3F37737E1C93B91700BA805D /* BMGlyphLabel.m in Sources */,
+				3F74D9691CA0729300CDD313 /* SKNode+SKTExtras.m in Sources */,
 				3F37735D1C93B8B000BA805D /* OALUtilityActions.m in Sources */,
 				3F3773691C93B8B000BA805D /* ALSoundSourcePool.m in Sources */,
 				3F3773651C93B8B000BA805D /* ALChannelSource.m in Sources */,

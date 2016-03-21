@@ -3,6 +3,7 @@
 This is a template project you can use as an alternative to the Xcode SpriteKit template for Objective-C.
 
 ### sktemplate-objc Features
+* SKTUtils. Includes [SKTUtils](https://github.com/raywenderlich/SKTUtils).
 * ObjectAL. Includes [ObjectAL](http://kstenerud.github.io/ObjectAL-for-iPhone/) for *really* easy audio play back in your games.
 * Bitmap Font Support. Includes the required libraries to use Bitmap Fonts created with [bmglyph](http://www.bmglyph.com). 
 * Animated Character. Example animated character that flies to the location tapped on screen.
@@ -14,19 +15,14 @@ This is a template project you can use as an alternative to the Xcode SpriteKit 
 cd ~/Downloads && git clone https://github.com/spritekitbook/sktemplate-objc.git
 ```
 
-2 - Copy renameProject.sh from the root of the project some place handy, like bin.
+2 - Make the rename script executable.
 ```bash
-mkdir ~/bin && cp ~/Downloads/sktemplate-objc/renameProject.sh ~/bin
+chmod +x sktemplate-objc/renameProject.sh
 ```
 
-3 - Make the script executable.
+3 - Rename the project
 ```bash
-chmod +x ~/bin/renameProject.sh
-```
-
-4 - Rename the project using the renameProject.sh script.
-```bash
-~/bin/renameProject.sh sktemplate-objc MyCoolGame
+sktemplate-objc/renameProject.sh sktemplate-objc MyCoolGame
 ```
 
 
