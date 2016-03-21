@@ -55,12 +55,14 @@
         [label runAction:[SKAction scaleTo:1.0 duration:0.25]];
     }];
     
+    // Instantiate and add teh player to the scene
     _player = [[Floppy alloc] init];
     [self addChild:_player];
     
 }
 
 
+#pragma mark - Touch Events
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
     
     UITouch *touch = [touches anyObject];
@@ -72,6 +74,8 @@
     
 }
 
+
+#pragma mark - Update
 -(void)update:(NSTimeInterval)currentTime {
     // Calculate "Delta"
     NSTimeInterval delta = currentTime - _lastUpdateTime;
