@@ -4,7 +4,7 @@ This is a template project you can use as an alternative to the Xcode SpriteKit 
 
 ### sktemplate-objc Features
 * SKTUtils. Includes [SKTUtils](https://github.com/raywenderlich/SKTUtils).
-* ObjectAL. Includes [ObjectAL](http://kstenerud.github.io/ObjectAL-for-iPhone/) for *really* easy audio play back in your games.
+* ObjectAL. Includes [OALSimpleAudio](http://kstenerud.github.io/ObjectAL-for-iPhone/) for *really* easy audio play back in your games.
 * Bitmap Font Support. Includes the required libraries to use Bitmap Fonts created with [bmglyph](http://www.bmglyph.com). 
 * Animated Character. Example animated character that flies to the location tapped on screen.
 * Handy Functions. My most used super handy functions are included in Utilities.h. 
