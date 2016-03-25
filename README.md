@@ -25,6 +25,13 @@ chmod +x sktemplate-objc/renameProject.sh
 sktemplate-objc/renameProject.sh sktemplate-objc MyCoolGame
 ```
 
+### Keeping the project up to date
+1 - Change directory into where you have the source downloaded.
+```bash
+git fetch origin
+git reset —-hard origin/master
+```
+
 
 ### Screenshot
 <p align="center">
