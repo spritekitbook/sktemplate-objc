@@ -78,8 +78,10 @@
 #pragma mark - Update
 -(void)update:(NSTimeInterval)currentTime {
     // Calculate "Delta"
+    /* Uncomment these two lines to use delta
     NSTimeInterval delta = currentTime - _lastUpdateTime;
     _lastUpdateTime = currentTime;
+    */
     
     
     [_player update];
